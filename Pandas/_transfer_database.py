@@ -104,7 +104,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create a local SQLite database " \
         "as a subset of a specified Macola database.")
     
-    default_config_file = "./config.json"
+    default_config_file = "./CONFIG.json"
     parser.add_argument("-c", "--config_file",
         help="JSON configuration file (default: '%s')" % (default_config_file), 
         default=default_config_file)
