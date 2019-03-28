@@ -29,7 +29,7 @@ def itercolumns(dataframe, *colName, _aslist=False, _asdict=True):
         This method makes it possible to prepare data analysis 
         scripts that are resilient to fluctuating SQL databases 
         that keep the same column names, however their column
-        slice can change as a result of adding or dropping a table.
+        slice can change as a result of adding or dropping a column.
 
     Example Usage:
         >>> # if `myDataframe` resembles:
