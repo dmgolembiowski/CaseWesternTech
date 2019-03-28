@@ -1,0 +1,7 @@
+{
+    "macola_db_server"   : "",
+    "macola_db_database" : "",
+    "macola_db_user"     : "",
+    "macola_db_password" : "",
+    "sqlite_db_file"     : ""
+}
