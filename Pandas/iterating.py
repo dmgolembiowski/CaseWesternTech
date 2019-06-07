@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pandas import DataFrame
 
-def main(dataFrame):
+def main(dataFrame) -> list:
     """
     When working with extremely massive SQL data
     in Python, nothing stinks more than 
